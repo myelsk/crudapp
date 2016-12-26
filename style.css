@@ -1,0 +1,37 @@
+.container {
+	margin: 30px auto;
+	height: auto;
+}
+
+h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #333;
+}
+
+.table tr th,
+.table tr td {
+	text-align: center;
+}
+
+.table tr:nth-child(odd) {
+	background: #eee;
+}
+
+.table tr td:last-child {
+	border-right: 0;
+}
+
+#display {
+	margin: 0 auto;
+}
+
+.no-block {display: none;}
+
+.block {display: block;}
+
+.no-err {border: 1px solid green;}
+.err {border: 1px solid red;}
